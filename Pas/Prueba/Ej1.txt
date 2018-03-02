@@ -1,4 +1,0 @@
-El fichero ./Prueba.o 1
-El fichero ./untitled.c 2
-El fichero ./Prueba.o 1
-El fichero ./untitled.c 2
