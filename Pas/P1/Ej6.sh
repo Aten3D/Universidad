@@ -1,7 +1,7 @@
 #!/bin/bash
 #Enumeración (<ul></ul>) conjunto de elementos (<li></li>) negrita <strong></strong>
 function htmlsearch {
-	for x in $(find $1 -maxdepth 1 -mindepth 1)
+	for x in $(find $1 -maxdepth 1)
 	do
 		if [ -f $x ]; then #fichero
 			echo "<li>$x</li>" >> "$dir".html
