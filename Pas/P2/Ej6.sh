@@ -19,7 +19,6 @@ for u in $passwd ; do
                         i=0
                 fi
         done
-        echo "pito"
         printf "${group[$GUID]}-$u" | sed -rn 's/(^[a-z]*)-(.*)xxx(.*$)/\2\1\3/p' | tr ';' '\n' | tr '_' '\t' | tr '·' ' '
         printf "\n->loged: $i\n"
 done
