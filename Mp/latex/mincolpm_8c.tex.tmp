@@ -1,0 +1,49 @@
+\hypertarget{mincolpm_8c}{}\section{mincolpm.\+c File Reference}
+\label{mincolpm_8c}\index{mincolpm.\+c@{mincolpm.\+c}}
+
+
+Funcion principal mincol.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+Include dependency graph for mincolpm.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ {\bfseries reservar\+Memoria} (int n\+Fil, int n\+Col)\hypertarget{mincolpm_8c_a30ee790bb9efa2a4e4e788a608c7c1e0}{}\label{mincolpm_8c_a30ee790bb9efa2a4e4e788a608c7c1e0}
+
+\item 
+void {\bfseries rellena\+Matriz} (int $\ast$$\ast$matriz, int n\+Fil, int n\+Col)\hypertarget{mincolpm_8c_a8b6f82a062e7dc44804175d315ce66b0}{}\label{mincolpm_8c_a8b6f82a062e7dc44804175d315ce66b0}
+
+\item 
+void {\bfseries imprime\+Matriz} (int $\ast$$\ast$matriz, int n\+Fil, int n\+Col)\hypertarget{mincolpm_8c_a5bf79a38c110ff51fb779540789d2785}{}\label{mincolpm_8c_a5bf79a38c110ff51fb779540789d2785}
+
+\item 
+int $\ast$ {\bfseries min\+Col} (int $\ast$$\ast$matriz, int n\+Fil, int n\+Col)\hypertarget{mincolpm_8c_a84e00c33f631fc247d2a1abc844808c0}{}\label{mincolpm_8c_a84e00c33f631fc247d2a1abc844808c0}
+
+\item 
+void {\bfseries liberar\+Memoria} (int $\ast$$\ast$$\ast$matriz, int $\ast$$\ast$min\+Col\+Array, int n\+Fil)\hypertarget{mincolpm_8c_a2bb19d17c1f7e6bdb880d3a24b102301}{}\label{mincolpm_8c_a2bb19d17c1f7e6bdb880d3a24b102301}
+
+\item 
+int {\bfseries main} ()\hypertarget{mincolpm_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{mincolpm_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Funcion principal mincol. 
+
+\begin{DoxyAuthor}{Author}
+doragonsitoretrasado 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+hoy 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+69 Este fichero contiene el codigo de las siguientes funciones\+: \begin{DoxyItemize}
+\item Reservar Matriz \item Rellenar Matriz \item Imprime Matriz \item Liberar Matriz \item Minimo columna \end{DoxyItemize}
+
+\end{DoxyVersion}

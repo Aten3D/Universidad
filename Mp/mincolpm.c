@@ -1,6 +1,23 @@
+/**
+@mainpage owo
+owo
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+@file mincolpm.c
+@brief Funcion principal mincol
+@author doragonsitoretrasado
+@date hoy
+@version 69
+Este fichero contiene el codigo de las siguientes funciones:
+@li Reservar Matriz
+@li Rellenar Matriz
+@li Imprime  Matriz
+@li Liberar  Matriz
+@li Minimo columna
+*/
 
 int **reservarMemoria(int nFil, int nCol);
 void rellenaMatriz(int **matriz, int nFil, int nCol);
@@ -38,6 +55,13 @@ int main(){
 	return 0;
 }
 
+/**
+@fn reservarMemoria
+@brief prueba
+hase cosas nasis
+@param nFil numero de filas
+@return matriz auxiliar
+*/
 int **reservarMemoria(int nFil, int nCol){
 	int **auxMatrix = (int**) malloc(nFil * sizeof(int*));
 
@@ -51,7 +75,8 @@ void rellenaMatriz(int **matriz, int nFil, int nCol){
 	printf("ASIGNAMOS UN VALOR ENTRE 1 Y 20 A CADA POSICION DE LA MATRIZ:\n");
 	for(int i = 0; i < nFil; i++)
 		for (int j = 0; j < nCol; j++)
-			*(*(matriz+i)+j) = rand()%20 + 1;
+
+¿ +3		*(*(matriz+i)+j) = rand()%20 + 1;
 }
 
 void imprimeMatriz(int **matriz, int nFil, int nCol){
